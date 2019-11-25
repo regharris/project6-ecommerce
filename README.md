@@ -40,4 +40,4 @@ Email: regharris0504@gmail.com
 
 ### Audits
 
-[!](audit/pweraudit.png)
+- [Audit](audit/pweraudit.png)
