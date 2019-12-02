@@ -10,7 +10,7 @@ After you open this application you must first sign up with a name, email and pa
 
 ###Installation
 
-npm install in "project5" folder to install all dependencies
+npm install in "project6" folder to install all dependencies
 
 ### Technologies
 
