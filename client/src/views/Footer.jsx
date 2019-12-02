@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDom from "react-dom";
+
 
 
 function Footer() {
@@ -13,6 +13,7 @@ function Footer() {
                         src="https://img.icons8.com/color/48/000000/snapchat-circled-logo.png"
                         className="social-icon"
                         width="40px"
+                        alt="snapchat"
                     />
                 </a>
 
@@ -21,6 +22,7 @@ function Footer() {
                         src="https://img.icons8.com/officel/80/000000/instagram-new.png"
                         className="social-icon"
                         width="40px"
+                        alt="instagram"
                     />
                 </a>
 
@@ -29,6 +31,7 @@ function Footer() {
                         src="https://img.icons8.com/officel/80/000000/facebook-new.png"
                         className="social-icon"
                         width="40px"
+                        alt="facebook"
                     />
                 </a>
 
@@ -37,6 +40,7 @@ function Footer() {
                         src="https://img.icons8.com/color/96/000000/twitter.png"
                         className="social-icon"
                         width="40px"
+                        alt="twitter"
                     />
                 </a>
 
@@ -45,6 +49,7 @@ function Footer() {
                         src="https://img.icons8.com/officel/80/000000/youtube.png"
                         className="social-icon"
                         width="40px"
+                        alt="youtube"
                     />
                 </a>
 
@@ -53,6 +58,7 @@ function Footer() {
                         src="https://img.icons8.com/officel/80/000000/linkedin.png"
                         className="social-icon"
                         width="40px"
+                        alt="linkedin"
                     />
                 </a>
             </div>

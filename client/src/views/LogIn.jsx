@@ -34,8 +34,10 @@ class LogIn extends React.Component {
 					<div className='column column-33 column-offset-33'>
 						<h1 className="s-title">Log In</h1>
 						<form onChange={this.onInputChange.bind(this)} onSubmit={this.onFormSubmit.bind(this)}>
-							<input type="text" placeholder="Email" name="email" value={email} />
-							<input type="password" placeholder="Password" name="password" value={password} />
+							<label for="formemail2">Email</label>
+							<input id="formemail2" type="text" name="email" value={email} />
+							<label for="formpassword2">Password</label>
+							<input id="formpassword2" type="password" name="password" value={password} />
 							<button className="signup-button">Log In</button>
 						</form>
 					</div>

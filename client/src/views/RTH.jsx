@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+
 
 export default class Products extends Component {
     constructor() {
@@ -149,6 +149,7 @@ export default class Products extends Component {
                                     className="productCard-img-top"
                                     height="250px"
                                     width="300px"
+                                    alt="productimage"
                                 />
                                 <div className="productCard-body">
                                     <section className="product-name">
@@ -163,9 +164,9 @@ export default class Products extends Component {
                                     <section className="price">
                                         <b>Price: ${products.price}</b>
                                     </section>
-                                    <a href="" className="pbtn pbtn-primary">
+                                    <button className="pbtn pbtn-primary">
                                         Buy
-                  </a>
+                  </button>
                                 </div>
                             </div>
                         );

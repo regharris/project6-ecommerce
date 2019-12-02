@@ -41,7 +41,7 @@ const Home = (props) => {
                         src="https://images.unsplash.com/photo-1506268380-e97dbfd5e51f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2304&q=80"
                         width="230"
                         height="280"
-                        alt="Card image cap"
+                        alt="autoparts"
                     />
                     <div className="card-body">
                         <h5 className="card-title">
@@ -62,7 +62,7 @@ const Home = (props) => {
                         src="https://images.unsplash.com/photo-1557411255-28ebcc0fdd54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
                         width="230"
                         height="280"
-                        alt="Card image cap"
+                        alt="autoparts"
                     />
                     <div className="card-body">
                         <h5 className="card-title">
@@ -83,7 +83,7 @@ const Home = (props) => {
                         src="https://i.pinimg.com/originals/dd/0d/d1/dd0dd1dfe8c6820822c36bb575d1fb94.jpg"
                         width="230"
                         height="280"
-                        alt="Card image cap"
+                        alt="autoparts"
                     />
                     <div className="card-body">
                         <h5 className="card-title">
