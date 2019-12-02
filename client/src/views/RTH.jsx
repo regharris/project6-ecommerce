@@ -148,7 +148,7 @@ export default class Products extends Component {
                                     src={products.productImage}
                                     className="productCard-img-top"
                                     height="250px"
-                                    width="300px"
+                                    width="320px"
                                     alt="productimage"
                                 />
                                 <div className="productCard-body">
