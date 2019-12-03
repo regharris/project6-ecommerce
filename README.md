@@ -6,7 +6,7 @@ This is a refactor of the "PoWeR LaB" ecommerce platform. In this version of the
 
 ### Website Link
 
-- feel free to view my project live(Heroku)
+feel free to view my project live(Heroku)
 
 https://admin-server-reggieh.herokuapp.com/
 
@@ -34,9 +34,9 @@ To view ERD see work folder
 
 ### Application Preview
 
-- ![Homepage](readmeimages/homescreen.png)
-- ![LoadingPage](readmeimages/loading.png)
-- ![Application](readmeimages/application.png)
+![Homepage](readmeimages/homescreen.png)
+![LoadingPage](readmeimages/loading.png)
+![Application](readmeimages/application.png)
 
 ### Installation
 
@@ -54,4 +54,4 @@ Email: regharris0504@gmail.com
 
 ### License
 
-- ![MIT](https://choosealicense.com/licenses/mit/)
+![MIT](https://choosealicense.com/licenses/mit/)
