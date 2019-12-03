@@ -33,7 +33,7 @@ class SignUp extends React.Component {
 			<div className='SignUp'>
 				<div className='row'>
 					<div className='column column-33 column-offset-33'>
-						<h1 className="s-title">Sign Up</h1>
+						<h1 className="sup">Sign Up</h1>
 						<form onChange={this.onInputChange.bind(this)} onSubmit={this.onFormSubmit.bind(this)}>
 							<label for="formname">Name</label>
 							<input id="formname" type="text" name="name" value={name} />

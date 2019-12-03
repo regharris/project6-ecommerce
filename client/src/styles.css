@@ -115,3 +115,37 @@ body {
 #snap {
   margin-left: 60px;
 }
+/* media queries */
+@media only screen and (max-width: 600px) {
+  #snap {
+    margin-left: 0px;
+  }
+  .wrapper {
+    display: block;
+    justify-content: center;
+  }
+  .footer-bar {
+    background-color: #555;
+    margin-bottom: 0px;
+    margin-top: 60%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  #snap {
+    margin-left: 0px;
+  }
+  .s-title {
+    color: #233c66;
+    margin-top: 305px;
+  }
+  .sup {
+    color: #233c66;
+    margin-top: 222px;
+  }
+  .footer-bar {
+    background-color: #555;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+}
