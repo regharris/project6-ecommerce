@@ -19,6 +19,9 @@ body {
 #quote {
   padding: 15px 0px;
 }
+.productCard-img-top {
+  width: 320px;
+}
 
 .wrapper {
   display: grid;
