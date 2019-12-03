@@ -54,4 +54,4 @@ Email: regharris0504@gmail.com
 
 ### License
 
-![MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)
