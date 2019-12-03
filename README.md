@@ -26,19 +26,19 @@ To view ERD see work folder
 
 ### Initial Audit
 
-- [Audit](audit/pweraudit.png)
+- ![Audit](audit/pweraudit.png)
 
 ### After Refactor
 
-- [Refactor](readmeimages/wemadeit.png)
+- ![Refactor](readmeimages/wemadeit.png)
 
 ### Application Preview
 
-- [Homepage](readmeimages/homescreen.png)
-- [LoadingPage](readmeimages/loading.png)
-- [Application](application.png)
+- ![Homepage](readmeimages/homescreen.png)
+- ![LoadingPage](readmeimages/loading.png)
+- ![Application](application.png)
 
-###Installation
+### Installation
 
 npm install in "project6" folder to install all dependencies, if you want the app version of this add application to home screen after clicking the link above.
 
@@ -54,4 +54,4 @@ Email: regharris0504@gmail.com
 
 ### License
 
-- [MIT](https://choosealicense.com/licenses/mit/)
+- ![MIT](https://choosealicense.com/licenses/mit/)
