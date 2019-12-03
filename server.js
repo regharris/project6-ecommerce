@@ -32,17 +32,30 @@ app.use(express.static(`${__dirname}/client/build`));
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
 app.use((req, res, next) => {
-  if (req.get("X-Forwarded-Proto") == "https" || req.hostname == "localhost") {
-    next();
-  } else if (
-    req.get("X-Forwarded-Proto") != "https" &&
-    req.get("X-Forwarded-Port") != "443"
+  // The 'x-forwarded-proto' check is for Heroku
+  if (
+    !req.secure &&
+    req.get("x-forwarded-proto") !== "https" &&
+    process.env.NODE_ENV === "production"
   ) {
-    //Redirect if not HTTP with original request URL
-    res.redirect("https://" + req.hostname + req.url);
+    return res.redirect("https://" + req.get("host") + req.url);
   }
+  next();
 });
+
+// app.use((req, res, next) => {
+//   if (req.get("X-Forwarded-Proto") == "https" || req.hostname == "localhost") {
+//     next();
+//   } else if (
+//     req.get("X-Forwarded-Proto") != "https" &&
+//     req.get("X-Forwarded-Port") != "443"
+//   ) {
+//     //Redirect if not HTTP with original request URL
+//     res.redirect("https://" + req.hostname + req.url);
+//   }
+// });
 
 // app.use((req, res, next) => {
 //   // The 'x-forwarded-proto' check is for Heroku
