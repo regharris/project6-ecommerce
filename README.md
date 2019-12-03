@@ -36,7 +36,7 @@ To view ERD see work folder
 
 - ![Homepage](readmeimages/homescreen.png)
 - ![LoadingPage](readmeimages/loading.png)
-- ![Application](application.png)
+- ![Application](readmeimages/application.png)
 
 ### Installation
 
