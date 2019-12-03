@@ -22,7 +22,7 @@ This application does have support for some features while offline. Each user wi
 
 To view ERD see work folder
 
-![ERD](work/erd.pdf)
+[ERD](work/erd.pdf)
 
 ### Initial Audit
 
