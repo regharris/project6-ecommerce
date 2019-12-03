@@ -1,4 +1,4 @@
-# PWA Ecommerce Application
+# Ecommerce PWA
 
 ### Objective
 
