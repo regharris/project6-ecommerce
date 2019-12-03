@@ -22,15 +22,15 @@ This application does have support for some features while offline. Each user wi
 
 To view ERD see work folder
 
-- [ERD](work/erd.pdf)
+![ERD](work/erd.pdf)
 
 ### Initial Audit
 
-- ![Audit](audit/pweraudit.png)
+![Audit](audit/pweraudit.png)
 
 ### After Refactor
 
-- ![Refactor](readmeimages/wemadeit.png)
+![Refactor](readmeimages/wemadeit.png)
 
 ### Application Preview
 
