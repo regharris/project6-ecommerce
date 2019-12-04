@@ -15,7 +15,7 @@ class App extends React.Component {
 	onLoginSuccess(user) {
 		this.setState({ currentUser: httpClient.getCurrentUser() })
 	}
-
+	// calls logout function causing the state to be set to null
 	logOut() {
 		httpClient.logOut()
 		this.setState({ currentUser: null })

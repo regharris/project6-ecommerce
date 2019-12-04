@@ -5,7 +5,7 @@ class LogIn extends React.Component {
 	state = {
 		fields: { email: '', password: '' }
 	}
-
+	//setting state upon input
 	onInputChange(evt) {
 		this.setState({
 			fields: {
@@ -14,7 +14,7 @@ class LogIn extends React.Component {
 			}
 		})
 	}
-
+	// preventing user leaving field empty
 	onFormSubmit(evt) {
 		evt.preventDefault()
 		httpClient.logIn(this.state.fields).then(user => {
@@ -25,7 +25,7 @@ class LogIn extends React.Component {
 			}
 		})
 	}
-
+	// rendering login form 
 	render() {
 		const { email, password } = this.state.fields
 		return (

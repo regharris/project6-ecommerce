@@ -6,7 +6,7 @@ class SignUp extends React.Component {
 	state = {
 		fields: { name: '', email: '', password: '' }
 	}
-
+	// settins state on input change
 	onInputChange(evt) {
 		this.setState({
 			fields: {
@@ -15,7 +15,7 @@ class SignUp extends React.Component {
 			}
 		})
 	}
-
+	//Prevents user for submitting empty field and stores that into my database into the users table 
 	onFormSubmit(evt) {
 		evt.preventDefault()
 		httpClient.signUp(this.state.fields).then(user => {

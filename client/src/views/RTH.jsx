@@ -107,6 +107,7 @@ export default class Products extends Component {
                 );
         };
     }
+    // fetching all of my products
     componentDidMount() {
         fetch("api/users/allProducts")
             .then(res => res.json())
