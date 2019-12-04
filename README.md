@@ -34,11 +34,11 @@ To view ERD see work folder
 
 ### Application Preview
 
-<img src="readmeimages/homescreen.png" height="580px" width="400px"/>
+<img src="readmeimages/homescreen.png" height="580px" width="200px"/>
 
-<img src="readmeimages/loading.png" height="580px" width="400px"/>
+<img src="readmeimages/loading.png" height="580px" width="200px"/>
 
-<img src="readmeimages/application.png" height="580px" width="400px"/>
+<img src="readmeimages/application.png" height="580px" width="200px"/>
 
 ### Installation
 
