@@ -22,7 +22,7 @@ This application does have support for some features while offline. Each user wi
 
 To view ERD see work folder
 
-![ERD](work/erd.pdf)
+[ERD](work/erd.pdf)
 
 ### Initial Audit
 
@@ -34,11 +34,11 @@ To view ERD see work folder
 
 ### Application Preview
 
-<img src="readmeimages/homescreen.png" height="500px" width="400px"/>
+<img src="readmeimages/homescreen.png" height="580px" width="400px"/>
 
-<img src="readmeimages/loading.png" height="500px" width="400px"/>
+<img src="readmeimages/loading.png" height="580px" width="400px"/>
 
-<img src="readmeimages/application.png" height="500px" width="400px"/>
+<img src="readmeimages/application.png" height="580px" width="400px"/>
 
 ### Installation
 
