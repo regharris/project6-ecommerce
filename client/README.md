@@ -1,3 +1,1 @@
-
-
-### Client Demonsstration for the Auth Server
+### Client Demonstration for the Auth Server

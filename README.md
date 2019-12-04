@@ -30,7 +30,7 @@ To view ERD see work folder
 
 ### After Refactor
 
-<img src="readmeimages/wemadeit.png" width="400px"/>
+<img src="audit/wemadeit.png" width="400px"/>
 
 ### Application Preview
 
