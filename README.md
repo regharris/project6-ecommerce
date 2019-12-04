@@ -34,11 +34,11 @@ To view ERD see work folder
 
 ### Application Preview
 
-<td>
+<tr>
 <img src="readmeimages/homescreen.png" width="200px"/>
 <img src="readmeimages/loading.png" width="200px"/>
 <img src="readmeimages/application.png" width="200px"/>
-</td>
+</tr>
 ### Installation
 
 npm install in "project6" folder to install all dependencies, if you want the app version of this add application to home screen after clicking the link above.
