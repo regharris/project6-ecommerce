@@ -41,7 +41,7 @@ const Home = (props) => {
                         src="https://images.unsplash.com/photo-1506268380-e97dbfd5e51f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2304&q=80"
                         width="230"
                         height="280"
-                        alt="autoparts"
+                        alt="Power member driving"
                     />
                     <div className="card-body">
                         <h5 className="card-title">
